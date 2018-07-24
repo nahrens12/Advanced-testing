@@ -72,11 +72,11 @@ public class OMDBTest {
 	
 	@When("^a user retrieves the film by the title \"([^\"]*)\"$")
 	public void a_user_retrieves_the_film_by_the_title(String arg1) {
-	    // Write code here that turns the phrase above into concrete actions
+	   // Write code here that turns the phrase above into concrete actions
 	   response = request.when().get("http://www.omdbapi.com/?t=" + arg1 +"&apikey=f8c3e119");
-	  // json = response.then().body("Title", equalTo("Hop"));
-	   //json = response.then().body("Year", equalTo("2011"));
-	   System.out.println("response: " + response.prettyPrint());
+	  //json = response.then().body("Title", equalTo("Hop"));
+	 //json = response.then().body("Year", equalTo("2011"));
+	//System.out.println("response: " + response.prettyPrint());
 	   
 	}
 	
