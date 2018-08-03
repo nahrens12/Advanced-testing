@@ -1,0 +1,7 @@
+sampler_label,aggregate_report_count,average,aggregate_report_median,aggregate_report_90%_line,aggregate_report_min,aggregate_report_max,aggregate_report_error%,aggregate_report_rate,aggregate_report_bandwidth,aggregate_report_stddev
+GETRequest,1,5,5,5,5,5,0.0,200.0,767.96875,0.0
+POSTRequest,1,4,4,4,4,4,0.0,250.0,77.880859375,0.0
+DELETERequest,1,16,16,16,16,16,0.0,62.5,3.2958984375,0.0
+PUTRequest,1,4,4,4,4,4,0.0,250.0,24.4140625,0.0
+GETRequest(SpecificID),1,2,2,2,2,2,0.0,500.0,180.17578125,0.0
+TOTAL,5,6,4,5,2,16,0.0,138.88888888888889,129.50303819444446,4.995998398718718

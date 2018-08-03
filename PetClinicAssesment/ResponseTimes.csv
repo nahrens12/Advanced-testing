@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1532696794719,5,GETRequest,200,,Smoke  1-1,text,true,,3932,228,1,1,4,0,1
+1532696794729,4,POSTRequest,201,,Smoke  1-1,text,true,,319,763,1,1,4,0,0
+1532696794733,16,DELETERequest,204,,Smoke  1-1,,true,,54,251,1,1,0,0,0
+1532696794749,4,PUTRequest,204,,Smoke  1-1,text,true,,100,763,1,1,0,0,0
+1532696794753,2,GETRequest(SpecificID),200,,Smoke  1-1,text,true,,369,229,1,1,2,0,0
